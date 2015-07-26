@@ -1,0 +1,71 @@
+/* Reset */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* Custom Code */
+#canvas{width:auto; height:auto;}
+
+#scroll img {
+	width: 100%;
+}
+.container {
+	width:980px;
+	margin:0 auto;
+}
+
+#links {
+	width: 100%; 
+	background-image:url("AdobeStock7.jpg"); 
+	background-repeat:no-repeat;
+	background-size:1600px 400px; 
+}
+
+table{margin-left: 50px;}
+td {
+    padding: 10% 5%;	
+}
+
+#links2 {
+	text-align:center; 
+	margin-top: 30px; 
+	padding: 50px; 
+	border: solid black;
+}
+
+.description{
+	background-color: #E8D8CB; 
+	width: 300px; 
+	height:400px; 
+	float:left;
+	border-style: solid; 
+	border-color: #FFCC66; 
+	border-width: 1px; 
+	border-bottom-color: #000000;  
+	border-bottom-width: 6px;
+	padding: 15px; 
+	margin:0 0 6% 4%;
+}
+
+#content{ 
+	margin-left:10%;
+}
+
+.content { 
+	margin: 0 6% 0 6%; 
+	padding: 0%;
+}
+
+#testimonials{color: #FFFFFF; background-color: #FF9A40; text-align:center; clear: left; padding: 40px;}
+
+footer{color: #FFFFFF; background-color: #000000; font-size: 9px; padding: 5%;}
+
+#social{text-align:right;}
+
+@media screen 
+	and (min-width: 0px)
+	and (max-width: 480px)
+{
+	.container {
+		width: 100%;
+	}
+
+}

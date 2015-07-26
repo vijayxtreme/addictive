@@ -1,0 +1,9 @@
+/*Common style elements*/
+body{font-family: "Verdana", sans-serif;}
+a{text-decoration:none; color: #FFFFFF;}
+
+/*The Header*/
+
+#header{background-color: #292428; color:#FFFFFF; text-align:right; padding: 10px; font-size: 100%;}
+
+.logo{float: left; background-image:url("addictive_la.jpg"); background-repeat: no-repeat; width:150px; height:30px; margin: 10px;}
